@@ -36,6 +36,10 @@ idea {
 repositories {
     mavenLocal()
     mavenCentral()
+    maven {
+        //url 'https://hub.spigotmc.org/nexus/content/groups/public/'
+        url 'https://hub.spigotmc.org/nexus/content/repositories/snapshots/'
+    }
 }
 
 group = project.property("group")
